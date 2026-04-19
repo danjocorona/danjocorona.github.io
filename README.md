@@ -1,7 +1,7 @@
 # Daniel Joseph Corona — Developer Portfolio
 
 A clean, responsive personal portfolio built from scratch with vanilla HTML, CSS, and JavaScript.
-Hosted for free on GitHub Pages at [danieljcorona.github.io](https://danieljcorona.github.io).
+Hosted for free on GitHub Pages at [danjocorona.github.io](https://danjocorona.github.io).
 
 ---
 
