@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <meta name="description" content="Full-stack software engineer specializing in scalable systems, modern web, and data-driven applications." />
+
+    <title>Daniel Joseph Corona -- Software Engineer</title>
+
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+     <!-- Stylesheet -->
+      <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <!-- ─────────────── NAVIGATION ─────────────── --> 
+    <nav id="navbar">
+        <div class="container nav-inner">
+            <a class="nav-logo" href="#hero">Daniel<span>.</span>Corona</a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a class="btn btn-ghost nav-cta" href="assets/resume.pdf" target="_blank">Resume</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile menu (toggled by JS) -->
+     <div class="mobile-menu" id="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="blog">Blog</a>
+        <a href="contact">Contact</a>
+        <a href="assets/resume.pdf" target="_blank" class="accent">↓ Resume</a>
+     </div>
+
+     <!-- ─────────────── HERO ─────────────── -->
+  <section id="hero">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting">👋 &nbsp;Hello, I'm</p>
+        <h1 class="hero-name">Daniel Joseph Corona</h1>
+        <p class="hero-role">Full Stack Engineer</p>
+        <p class="hero-desc">
+          B.S. Computer Science graduate building scalable systems, polished interfaces,
+          and data-driven applications. I care about clean code, great UX, and shipping
+          things that matter.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View My Work</a>
+          <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+        </div>
+
+        <div class="hero-socials">
+          <a class="social-link" href="https://github.com/danjocorona" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+          <a class="social-link" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a class="social-link" href="mailto:daniel.joseph.corona@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m2 7 10 7 10-7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <a class="hero-scroll" href="#about" aria-label="Scroll to About section">
+      <span>SCROLL</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ─────────────── ABOUT ─────────────── -->
+   <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-avatar-wrap reveal">
+          <div class="about-avatar-ring"></div>
+          <div class="about-avatar" aria-label="Avatar initials">DC</div>
+          <div class="about-stat-badge">
+            <span class="num">15+</span>
+            <span class="lbl">PROJECTS</span>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <p class="section-label">About Me</p>
+          <div class="section-divider"></div>
+          <h2 class="section-title about-title">
+            Turning ideas into<br/>working software
+          </h2>
+          <p class="about-bio">
+            I recently earned my B.S. in Computer Science and have spent the last four years
+            building a deep foundation in algorithms, systems design, and modern web development.
+            I love working across the stack — from database schemas to polished UIs.
+          </p>
+          <ul class="about-highlights">
+            <li>B.S. Computer Science — Class of 2025</li>
+            <li>Experience across web, systems, and data engineering</li>
+            <li>Fast learner who thrives in collaborative teams</li>
+          </ul>
+          <div class="about-actions">
+            <a class="btn btn-primary" href="assets/resume.pdf" target="_blank">Download Resume</a>
+            <a class="btn btn-ghost" href="#contact">Let's Talk</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── SKILLS ─────────────── -->
+   <section id="skills" class="section section-alt">
+    <div class="container">
+        <p class="section-label reveal">Skills &amp; Stack</p>
+        <div class="section-divider reveal"></div>
+        <h2 class="section-title reveal">Technologies I work with</h2>
+
+        <div class="skills-grid"></div>
+
+        <div class="skill-card reveal">
+            <div class="skill-card-icon" aria-hidden="true">⚙️</div>
+            <h3 class="skill-card-title">Languages</h3>
+            <ul class="skill-tags">
+                <li class="tag">Python</li>
+                <li class="tag">C++</li>
+                <li class="tag">C#</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">LUA</li>
+                <li class="tag">SQL</li>
+                <li class="tag">Bash</li>
+            </ul>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+            <div class="skill-card-icon" aria-hidden="true">🌐</div>
+            <h3 class="skill-card-title">Frontend</h3>
+            <ul class="skill-tags">
+                <li class="tag">React</li>
+                <li class="tag">Next.js</li>
+                <li class="tag">HTML/CSS</li>
+            </ul>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card-icon" aria-hidden="true">🖥️</div>
+          <h3 class="skill-card-title">Backend &amp; Systems</h3>
+          <ul class="skill-tags">
+            <li class="tag">Node.js</li>
+            <li class="tag">FastAPI</li>
+            <li class="tag">PostgreSQL</li>
+            <li class="tag">MongoDB</li>
+            <li class="tag">Linux</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon" aria-hidden="true">☁️</div>
+          <h3 class="skill-card-title">Cloud &amp; DevOps</h3>
+          <ul class="skill-tags">
+            <li class="tag">AWS</li>
+            <li class="tag">Docker</li>
+            <li class="tag">GitHub Actions</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card-icon" aria-hidden="true">🤖</div>
+          <h3 class="skill-card-title">Data &amp; ML</h3>
+          <ul class="skill-tags">
+            <li class="tag">PyTorch</li>
+            <li class="tag">Pandas</li>
+            <li class="tag">NumPy</li>
+            <li class="tag">Jupyter</li>
+            <li class="tag">Matplotlib</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card-icon" aria-hidden="true">🛠️</div>
+          <h3 class="skill-card-title">Tools &amp; Practices</h3>
+          <ul class="skill-tags">
+            <li class="tag">Git</li>
+            <li class="tag">Agile/Scrum</li>
+            <li class="tag">TDD</li>
+            <li class="tag">CI/CD</li>
+            <li class="tag">Code Review</li>
+            <li class="tag">System Design</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+   </section>
+
+   <!-- ─────────────── PROJECTS ─────────────── -->
+   <section id="projects" class="section">
+    <div class="container">
+      <p class="section-label reveal">Projects</p>
+      <div class="section-divider reveal"></div>
+      <h2 class="section-title reveal">Things I've built</h2>
+
+      <div class="projects-grid">
+
+        <!-- Featured project -->
+        <article class="project-card project-featured reveal">
+          <div class="project-card-body">
+            <p class="project-num">01 — Featured</p>
+            <h3 class="project-title">Distributed Task Queue</h3>
+            <p class="project-desc">
+              A Redis-backed distributed job queue built in Python with support for priority
+              scheduling, retries with exponential backoff, and a real-time web dashboard.
+              Handles 10k+ jobs/minute with horizontal worker scaling.
+            </p>
+            <ul class="project-stack">
+              <li class="tag">Python</li>
+              <li class="tag">Redis</li>
+              <li class="tag">FastAPI</li>
+              <li class="tag">React</li>
+              <li class="tag">Docker</li>
+              <li class="tag">WebSocket</li>
+            </ul>
+            <div class="project-links">
+              <a class="project-link" href="https://github.com/yourusername/project" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                Source Code
+              </a>
+              <a class="project-link" href="#" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="project-featured-visual" aria-hidden="true">
+            <div class="code-preview">
+              <span class="kw">class</span> <span class="cn">TaskQueue</span>:<br/>
+              &nbsp;&nbsp;<span class="dim">def</span> enqueue(self, task):<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;priority = task.priority<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;redis.zadd(<span class="str">"queue"</span>,<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{task.id: priority})<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="dim">return</span> task.id<br/>
+              <br/>
+              <span class="dim"># Workers: 12 | Jobs/min: 10k+</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <p class="project-num">02</p>
+          <h3 class="project-title">ML Price Predictor</h3>
+          <p class="project-desc">
+            End-to-end machine learning pipeline for housing price prediction with
+            automated data cleaning, feature engineering, ensemble modeling, and a
+            REST API for inference.
+          </p>
+          <ul class="project-stack">
+            <li class="tag">Python</li>
+            <li class="tag">scikit-learn</li>
+            <li class="tag">XGBoost</li>
+            <li class="tag">FastAPI</li>
+            <li class="tag">Pandas</li>
+          </ul>
+          <div class="project-links">
+            <a class="project-link" href="https://github.com/yourusername/project" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Source Code
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1">
+          <p class="project-num">03</p>
+          <h3 class="project-title">Asteroid Blaster</h3>
+          <p class="project-desc">
+            A fully featured arcade space shooter built in Python with Pygame.
+            Pilot a ship through endless ateroid waves, asteroids split into
+            smaller fragments on impact, difficulty scales over time, and the
+            scoring system rewards larger kills. Features sprite-based rendering,
+            circle collision detection, physics-based thrust and friction,
+            sound effects, background music, and a web build via Pybag so it
+            runs directly in the browser.
+          </p>
+          <ul class="project-stack">
+            <li class="tag">Python</li>
+            <li class="tag">Pygame</li>
+            <li class="tag">Pybag</li>
+            <li class="tag">OOP</li>
+            <li class="tag">Vector2 Physics</li>
+          </ul>
+          <div class="project-links">
+            <a class="project-link" href="https://github.com/danjocorona/asteroid-blaster" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Source Code
+            </a>
+            <a class="project-link" href="https://danjocorona.github.io/asteroid-blaster/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-2">
+          <p class="project-num">04</p>
+          <h3 class="project-title">Fruit Collector</h3>
+          <p class="project-desc">
+            A fast-paced arcade browser game built in Python with Pygame. Control a basket
+            to catch 7 types of falling fruit while dodging bombs that drain your score.
+            Features timed independent spawn events, variable fall speeds, off-screen
+            object culling, and a full win/lose/restart game loop. Compiled to WebAssembly
+            with Pybag for instant browser play.
+          </p>
+          <ul class="project-stack">
+            <li class="tag">Python</li>
+            <li class="tag">Pygame</li>
+            <li class="tag">Pybag</li>
+            <li class="tag">OOP</li>
+            <li class="tag">Event Timers</li>
+          </ul>
+          <div class="project-links">
+            <a class="project-link" href="https://github.com/danjocorona/fruit-collector" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              Source Code
+            </a>
+            <a class="project-link" href="https://danjocorona.github.io/fruit-collector/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── BLOG ─────────────── -->
+  <section id="blog" class="section section-alt">
+    <div class="container">
+      <p class="section-label reveal">Writing</p>
+      <div class="section-divider reveal"></div>
+      <h2 class="section-title reveal">Things I've written</h2>
+
+      <div class="blog-grid">
+
+        <article class="blog-card reveal">
+          <p class="blog-date">March 2025 · 8 min read</p>
+          <h3 class="blog-title">Building a Production-Ready REST API with FastAPI</h3>
+          <p class="blog-excerpt">A deep dive into structuring a FastAPI project for production: auth, validation, error handling, testing, and Docker deployment.</p>
+          <span class="blog-read-more">Read Article →</span>
+        </article>
+
+        <article class="blog-card reveal reveal-delay-1">
+          <p class="blog-date">February 2025 · 6 min read</p>
+          <h3 class="blog-title">Understanding CAP Theorem Through Real Systems</h3>
+          <p class="blog-excerpt">Demystifying distributed systems trade-offs using concrete examples from Redis, Cassandra, and PostgreSQL deployments.</p>
+          <span class="blog-read-more">Read Article →</span>
+        </article>
+
+        <article class="blog-card reveal reveal-delay-2">
+          <p class="blog-date">January 2025 · 5 min read</p>
+          <h3 class="blog-title">React Performance Patterns You Should Know</h3>
+          <p class="blog-excerpt">Practical patterns for avoiding re-renders, memoizing correctly, and using React Profiler to diagnose performance bottlenecks.</p>
+          <span class="blog-read-more">Read Article →</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── CONTACT ─────────────── -->
+   <section id="contact" class="section">
+    <div class="container">
+      <p class="section-label reveal">Contact</p>
+      <div class="section-divider reveal"></div>
+      <h2 class="section-title reveal">Let's build something together</h2>
+
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <h3 class="contact-info-title">Open to opportunities</h3>
+          <p class="contact-info-desc">
+            I'm actively looking for full-time software engineering roles — full stack,
+            backend, frontend, or data engineering. If you're working on something
+            interesting, I'd love to chat.
+          </p>
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+            </div>
+            <span>daniel.joseph.corona@gmail.com</span>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <span>github.com/danjocorona</span>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <!-- Wire up with Formspree: replace YOUR_FORM_ID in main.js -->
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="name">NAME</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">EMAIL</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="subject">SUBJECT</label>
+              <input class="form-input" type="text" id="subject" name="subject" placeholder="Role opportunity, collab, etc." />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">MESSAGE</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Tell me about the opportunity or project..." required></textarea>
+            </div>
+            <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+            <button class="btn btn-primary" type="submit">
+              Send Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true">
+                <line x1="22" y1="2" x2="11" y2="13"/>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── FOOTER ─────────────── -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <span class="footer-copy">© 2026 Daniel Joseph Corona — Built with HTML, CSS &amp; JS · Hosted on GitHub Pages</span>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="https://github.com/danjocorona" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:daniel.joseph.corona@gmail.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript — loaded at end of body so the DOM is ready -->
+  <script src="js/main.js"></script>
+</body>
+</html>
