@@ -109,43 +109,6 @@ or surfaces errors inline.
 
 ---
 
-## Setup & Deployment
-
-### Run locally
-No build step needed. Just open `index.html` in your browser, or use VS Code's Live Server
-extension for auto-reload during development.
-
-### Deploy to GitHub Pages
-1. Create a repository named `yourusername.github.io`
-2. Push all files to the `main` branch
-3. Go to **Settings → Pages → Source: main branch / root**
-4. Your site is live at `https://yourusername.github.io` within ~60 seconds
-
-### Activate the contact form
-1. Sign up for a free account at [formspree.io](https://formspree.io)
-2. Create a new form and copy your endpoint ID (e.g. `xpwzabcd`)
-3. In `js/main.js`, replace `YOUR_FORM_ID` with your real ID:
-   ```js
-   const response = await fetch('https://formspree.io/f/xpwzabcd', { ... });
-   ```
-
-### Add your resume
-Drop your PDF into the `assets/` folder as `resume.pdf`. All resume buttons and links
-in the HTML already point to `assets/resume.pdf`.
-
----
-
-## Customization
-
-All placeholder content is clearly marked in the files. The main things to update:
-
-- **`index.html`** — your name, bio, project titles/descriptions/links, blog posts, email, GitHub and LinkedIn URLs
-- **`js/main.js`** — replace `YOUR_FORM_ID` with your Formspree endpoint
-- **`assets/resume.pdf`** — add your actual resume
-- **`css/style.css`** — swap `--accent` in `:root` to change the color scheme site-wide
-
----
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
